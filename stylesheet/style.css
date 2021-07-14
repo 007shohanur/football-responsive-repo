@@ -1,0 +1,149 @@
+/* font added */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+body {
+  font-family: "Poppins", sans-serif;
+}
+/* conmebol copa start */
+.copa {
+  background-color: #2d25a0;
+  display: flex;
+  padding: 120px 80px 60px;
+  height: 677px;
+  width: 88%;
+}
+.copa-live {
+  color: #ffffff;
+  height: 230px;
+  width: 485px;
+  padding: 80px;
+  text-align: left;
+}
+.copa-live h1 {
+  font-size: 60px;
+}
+.anchor-button {
+  text-decoration: none;
+  background: #e02c6d;
+  padding: 10px 50px;
+
+  color: #ffffff;
+  font-weight: 700;
+}
+.banner {
+  width: 556px;
+  height: 438px;
+  position: relative;
+  transition: transfrom 1s ease-out 0.1s;
+}
+.banner img {
+  height: 438px;
+  width: 556px;
+  padding: 5%;
+  position: relative;
+  transition: transfrom 1s ease-out 0.1s;
+}
+
+.copa:hover .banner img {
+  transform: translate(-50px, 25px);
+}
+/* <!-- conmebol copa end --> */
+/* player list style start */
+
+.item {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.players {
+  padding-top: 50px;
+  padding-left: 40px;
+}
+.player {
+  height: 456px;
+  width: 330px;
+  padding: 3% 2%;
+  margin: 2%;
+  box-shadow: 15px 18px 15px 20px gray;
+}
+.player p {
+  font-size: 14px;
+}
+.player img {
+  height: 256px;
+  width: 300px;
+  padding: 16px 16px 16px;
+}
+.player-name {
+  margin-top: 2px;
+}
+/* player list style end */
+/* comment */
+.comments {
+  padding-top: 80px;
+  padding-left: 45px;
+}
+.comment-box {
+  height: 100px;
+  width: 500px;
+}
+.comment-box h2 {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+.comment-box input {
+  width: 100%;
+  height: 50px;
+  padding: 0 20px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: 1px solid #86b0b6;
+}
+.comment-box input:focus {
+  border: 1px solid #000;
+  outline: 0;
+}
+.comment-box textarea {
+  width: 100%;
+  height: 150px;
+  padding: 15px 20px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #86b0b6;
+}
+.comment-box textarea:focus {
+  border: 1px solid #000;
+  outline: 0;
+}
+.comment-box button {
+  background: #e02c6d;
+  padding: 10px 30px;
+  border-radius: 5px;
+  color: #ffffff;
+  font-size: 18px;
+}
+.comment-box button:hover {
+  background-color: #718a83;
+}
+/* footer style start */
+.footer {
+  padding-left: 475px;
+  margin-top: 30%;
+}
+
+.footer-img img {
+  height: 213px;
+  width: 484px;
+}
+.icon {
+  height: 32px;
+  width: 270px;
+  padding-left: 25%;
+}
+.fab,
+.fas {
+  width: 20px;
+}
+.copyright {
+  padding-left: 18%;
+}
+/* footer style end  */
